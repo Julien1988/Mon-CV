@@ -1,3 +1,5 @@
+/* BODY */
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -9,6 +11,11 @@ h3 {
 li {
     margin-bottom: 1.2em;
 }
+
+.fa {
+    width: 2em;
+}
+
 
 /* HEADER */
 
@@ -40,6 +47,10 @@ li {
 
 /* MAIN */
 
+.main {
+    background: linear-gradient(rgb(124, 124, 124), white);
+}
+
 /* section top */
 
 .section-top {
@@ -47,6 +58,10 @@ li {
     padding-top: 3em;
     padding-bottom: 3em;
     font-size: 1.2em;
+
+    border-top: 2px solid rgb(238, 235, 235);
+    border-bottom: 2px solid rgb(238, 235, 235);
+    margin-bottom: 3em;
 }
 
 /* section bot */
@@ -55,6 +70,8 @@ li {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
+
+    padding-bottom: 5em;
 }
 
 /* section bot -- left side */
@@ -92,4 +109,9 @@ li {
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
+}
+
+.main__section__container__container-top__head {
+    display: flex;
+    align-items: baseline;
 }
