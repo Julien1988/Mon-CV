@@ -1,0 +1,95 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    letter-spacing: 6px;
+}
+
+li {
+    margin-bottom: 1.2em;
+}
+
+/* HEADER */
+
+.header {
+    background-image: url(images/Desk-Wallpapers-HD.jpg);
+    padding-top: 4em;
+    padding-bottom: 4em;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+
+}
+
+.header__container {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    place-self: center;
+}
+
+.header__container__title {
+    letter-spacing: 8px;
+}
+
+.header__container__subtile {
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+/* MAIN */
+
+/* section top */
+
+.section-top {
+    padding-left: 5em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    font-size: 1.2em;
+}
+
+/* section bot */
+
+.section-bot {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+/* section bot -- left side */
+
+.container-left {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    
+    padding-left: 5em;
+}
+
+/* section bot -- right side */
+
+.container-right {
+    padding-left: 5em;
+}
+.main__section__container__head {
+    display: flex;
+    align-items: baseline;
+}
+
+.main__section__container__container-top {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.main__section__container__container-bot {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
